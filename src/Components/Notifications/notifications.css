@@ -1,0 +1,17 @@
+.notif-box {
+    height: 3.5rem;
+    width: 25%;
+    border: none;
+    border-radius: 0.3rem;
+    z-index: 2;
+    position: fixed;
+}
+
+.notif-box2 {
+    height: 3.5rem;
+    width: 75%;
+    border: none;
+    border-radius: 0.3rem;
+    z-index: 2;
+    position: fixed;
+}
