@@ -44,9 +44,11 @@ const List = () => {
 
                 } else {
                     console.error('failed to fetch files')
+                    setMessage("Desolé, nous n'avons pas pu charger les fichiers...")
                 }
             } catch(e) {
                 console.error('Failed: ', e)
+                setMessage("Desolé, nous n'avons pas pu charger les fichiers...")
             }
         }
 

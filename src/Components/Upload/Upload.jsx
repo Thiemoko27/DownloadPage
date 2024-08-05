@@ -30,13 +30,8 @@ const FileUpload = () => {
             body: formData
         })
 
-        if(response.ok) {
-            setValidate(true)
-            //setMessage('Fichier uploadé avec succes!')
-        } else {
-            setFailed(true)
-            //setMessage("Impossible d'uploader le ficher, assurez vous qu'il soit en pdf ou docx")
-        }
+        if(response.ok)    setValidate(true)
+            else    setFailed(true)
     }
 
     useEffect(() => {
